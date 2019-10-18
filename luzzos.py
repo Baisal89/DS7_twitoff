@@ -22,3 +22,8 @@ def about():
 
 def via():
     return render_template('via.html')
+
+#this will create fourth page
+@app.route("/about/via/base")
+def base():
+    return render_template('base.html')
